@@ -55,7 +55,7 @@ void    matInput(Matrix mat);//Not implementetd. (yet)
 double  matDet(Matrix mat);//Determinant
 Matrix  matMinor(Matrix main);//Minor
 Matrix  matCofactor(Matrix mat);//Cofactor
-Matrix  matTranspose(Matrix mat);//Transposes
+Matrix  matTranspose(Matrix mat);//Transpose
 Matrix  matInverse(Matrix mat);//Inverse (Minor -> Cofactor -> Transpose (Adjoint) -> Scale with 1/det)
 Matrix  matScale(Matrix mat, double value);//Scale the matrix
 Matrix  matMult(Matrix mat1, Matrix mat2);//Multiplication between matrices.
