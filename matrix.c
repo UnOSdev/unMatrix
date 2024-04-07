@@ -177,7 +177,7 @@ double matDet(Matrix mat){
         return 0;
     }
     if(mat->c != mat->r){
-        printf("ERROR: Non-square matrix provided, determinant uncalculable!(%u:%s)\n", __LINE__, __FILE__);
+        printf("ERROR: Non-square matrix provided, determinant incalculable!(%u:%s)\n", __LINE__, __FILE__);
     };
     double result = 0;
     for (size_t j = 0; j < mat->c; j++)
